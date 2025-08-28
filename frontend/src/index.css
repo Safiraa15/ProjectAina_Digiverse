@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-gray-900;
+}
+html {
+  scroll-behavior: smooth;
+}
+.active-link {
+  border-bottom: 2px solid #facc15; 
+  color: #facc15; 
+}
+html {
+  scroll-behavior: smooth;
+}
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
